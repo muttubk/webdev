@@ -1,5 +1,54 @@
-h1 {
-    color: blueviolet;
-    text-align: center;
-    font-style: "Times-Roman";
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
 }
+
+body {
+    background-color: rgb(255, 247, 235);
+}
+
+/* Navigation start */
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+.compname {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+li a{
+    float: right;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 0.5rem;
+    margin-right: 1.2rem;
+}
+/* Navigation end */
+
+/* Main content start */
+.maincontent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.herosection {
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesection {
+    grid-column: 6/-1;
+}
+/* Main content end */
+
+
+/* Footer start */
+footer {
+    text-align: center;
+}
+/* Footer end */
