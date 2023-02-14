@@ -11,7 +11,20 @@ body {
 ul {
     list-style: none;
     overflow: hidden;
+    padding: 0%;
 }
+
+.logo {
+    float:left;
+    width: 30px;
+    height: 30px;
+}
+
+.logo:hover {
+    border-radius: 25rem;
+    transition-duration: 5s;
+}
+
 .compname {
     float: left;
     font-weight: bold;
@@ -27,6 +40,10 @@ li a{
     padding: 0.5rem;
     margin-right: 1.2rem;
 }
+
+li a:hover {
+    color: rgb(93, 180, 183);
+}
 /* Navigation end */
 
 /* Main content start */
@@ -41,9 +58,23 @@ li a{
     flex-direction: column;
 }
 
+.contact_btn {
+    width: fit-content;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0.4rem;
+}
+.contact_btn:hover {
+    background-color: rgb(183, 105, 255);
+}
+.contact_btn:active {
+    background-color: blueviolet;
+}
+
 .imagesection {
     grid-column: 6/-1;
 }
+
 /* Main content end */
 
 
